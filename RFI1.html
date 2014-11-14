@@ -15,10 +15,8 @@
 	}*/
 	$f = fopen("../../../../../../../../home/level1/key.txt", "r");
 	
-	// Read line by line until end of file
-	while(!feof($f)) { 
-	    echo fgets($f);
-	}
+	// Read line
+	echo fgets($f);
 	
 	fclose($f);
 	//include($../../../../../home/level1/key.’.txt’);
