@@ -1,3 +1,10 @@
+<html>
+
+	<head>
+	<title>RFI1</title>
+	</head>
+	<body>
+
 <?php
 	/*function foo(){
 		global $color;
@@ -6,7 +13,7 @@
 
 		echo "A $color $fruit";
 	}*/
-	$f = fopen("../../../../../home/level1/key.txt", "r");
+	$f = fopen("../../../../../../../../home/level1/key.txt", "r");
 	
 	// Read line by line until end of file
 	while(!feof($f)) { 
@@ -16,3 +23,6 @@
 	fclose($f);
 	//include($../../../../../home/level1/key.’.txt’);
 	?>
+	
+	</body>
+</html>
