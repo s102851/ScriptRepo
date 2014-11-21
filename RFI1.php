@@ -22,6 +22,8 @@
     header('Content-Length: ' . filesize($file));
     readfile($file);
     exit;
+} else {
+echo "failed"
 }
 	//echo readfile($name);
 	
