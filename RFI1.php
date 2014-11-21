@@ -1,16 +1,6 @@
 <?php
-	/*function foo(){
-		global $color;
-
-		include '../../../../../home/level1/key.txt';
-
-		echo "A $color $fruit";
-	}*/
-	//$f = fopen("../../../../../../../../home/level1/key.txt", "r");
 	
-	$file = '../../../../../../../../home/level1/key.txt';
-	// Read line
-	//echo fgets($f);
+	$file = '../../../../../../../../../../../home/level1/key.txt';
 	
 	if (file_exists($file)) {
     header('Content-Description: File Transfer');
@@ -22,11 +12,5 @@
     header('Content-Length: ' . filesize($file));
     readfile($file);
     exit;
-} else {
-echo "failed"
 }
-	//echo readfile($name);
-	
-	//fclose($f);
-	//include($../../../../../home/level1/key.’.txt’);
 	?>
